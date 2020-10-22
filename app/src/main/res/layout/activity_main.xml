@@ -8,6 +8,33 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+
+
+        <EditText
+            android:id="@+id/secondtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introduceti un text"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/secondbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/cancelbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:visibility="gone"/>
+
+
+
+
     <TextView
         android:id="@+id/mainvw"
         android:layout_width="match_parent"
@@ -28,9 +55,16 @@
         android:layout_height="40dp"
         android:hint="Introduceti un text:" />
     <Button
+    android:id="@+id/btn_dialbtn2"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Open secondary dialog "
+    />
+    <Button
         android:id="@+id/btn_dialbtn"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="Open dialog"
         />
+
 </LinearLayout>
